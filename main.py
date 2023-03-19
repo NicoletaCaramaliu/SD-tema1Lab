@@ -180,8 +180,7 @@ def BubbleSort(v):
 
 
 """Aflam timpii de rulare pentru fiecare metoda de sortare"""
-f = open("input.txt", "r")
-g = open("output.txt", "w")
+f = open("input1.txt", "r")
 teste = int(f.readline())
 sortari = ["MergeSort", "ShellSort", "CountSort", "BubbleSort", "radix_sort4", "radix_sort8", "radix_sort12",
            "radix_sort16"]
