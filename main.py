@@ -256,4 +256,3 @@ for test in range(teste):
     v = sorted(v)
     time_stop = time.time()
     print("Time for Python function for sorting lists:   {0}".format(time_stop - time_start), testSort(v) + "\n")
-
